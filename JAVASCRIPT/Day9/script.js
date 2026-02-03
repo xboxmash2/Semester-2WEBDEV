@@ -1,4 +1,5 @@
-const query=document.querySelector("#cont p");
+const query=document.querySelectorAll("p");
 console.log(query)
-
-query.textContent="afdsvf rwevfs ardfsvw"
+for(i=0;i<query.length;i++){
+    query[i].textContent="afdsvf rwevfs ardfsvw"
+}
