@@ -15,3 +15,7 @@ console.log(newpara.textContent);
 
 const container = document.getElementById("container")
 container.appendChild(newpara);
+
+const p=document.getElementById("container").querySelector("p")
+
+p.remove()
