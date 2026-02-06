@@ -16,6 +16,17 @@ console.log(newpara.textContent);
 const container = document.getElementById("container")
 container.appendChild(newpara);
 
+//Deleting element
 const p=document.getElementById("container").querySelector("p")
-
 p.remove()
+
+let date= new Date()
+
+// console.log(date)
+// setTimeout(()=>(
+//     //alert
+// ),1000)
+function Handle(){
+    let x =document.getElementById("output")
+    x.textContent="Button Clicked"
+}
